@@ -5,6 +5,7 @@ def ensure(condition, message):
         print('*** 测试成功')
 
 
+# 获取字符串
 def string_element(s):
     r = '"'
     ec = False
@@ -56,6 +57,7 @@ def common_element(s):
     return r
 
 
+# 获取数字、
 def fomatted_element(s):
     r = s
     num = '-0123456789'
